@@ -19,7 +19,7 @@ function Header() {
                     <Search />
                 </div>
             </div>
-            <div>dang nhap</div>
+            <div>Login</div>
         </div>
     );
 }
