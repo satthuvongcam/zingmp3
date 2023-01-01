@@ -25,7 +25,7 @@ function Slider() {
                 }
             }
 
-            // Add amimation by adding classnames
+            // Add animation by adding classnames
             list.forEach((item) => {
                 if (item === max) {
                     sliderEls[item].classList.add('animate-slide-right', 'order-last', 'z-5');

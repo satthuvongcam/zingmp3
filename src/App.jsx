@@ -4,14 +4,12 @@ import path from './ultis/path';
 import { useEffect } from 'react';
 import * as actions from './store/actions';
 import { useDispatch } from 'react-redux';
-import 'antd/dist/reset.css';
 
 const App = () => {
     const dispatch = useDispatch();
     useEffect(() => {
         dispatch(actions.getHome());
-    }, []);
-
+    });
     return (
         <div>
             <Routes>
