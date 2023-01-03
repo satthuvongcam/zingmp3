@@ -8,7 +8,7 @@ const notActiveStyle = 'py-2 px-[25px] flex items-center text-[13px] text-[#3232
 
 function SidebarLeft() {
     return (
-        <div className="w-[240px] bg-[#dde4e4]">
+        <div className="w-[240px] bg-main-200">
             <div className="w-full h-[70px] pl-[28px] pr-[25px] py-[15px] flex items-center">
                 <img src={logo} alt="logo" className="w-[120px] h-10" />
             </div>

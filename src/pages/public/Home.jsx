@@ -16,7 +16,7 @@ function Home() {
     //     getData();
     // });
     return (
-        <div className="overflow-y-auto px-[59px] flex-1 bg-[#d0dada]">
+        <div className="overflow-y-auto px-[59px] flex-1 bg-main-300">
             <Header />
             <Slider />
         </div>
